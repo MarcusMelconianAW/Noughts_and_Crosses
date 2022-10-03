@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Noughts & Crosses</title>
+  <meta content="text/html; charset=utf-8"
+        http-equiv="content-type">
+  <link href="main.css"
+        rel="stylesheet"
+        type="text/css">
+</head>
+<body>
+  <div style="width:100%; height:40px"></div>
+  <h1 class="game_title"><span class="game_title_noughts">Noughts</span> & <span class="game_title_crosses">Crosses</span><h1>
+  <p id="winner-display">The winner is <span id="winner-name"></span>!</p>
+  <div style="width:100%; height:20px"></div>
+  <div id="grid">
+    <div class="row"
+         id="row-0">
+      <div class="column"
+           id="row-0-column-0"></div>
+      <div class="column"
+           id="row-0-column-1"></div>
+      <div class="column"
+           id="row-0-column-2"></div>
+    </div>
+    <div class="row"
+         id="row-1">
+      <div class="column"
+           id="row-1-column-0"></div>
+      <div class="column"
+           id="row-1-column-1"></div>
+      <div class="column"
+           id="row-1-column-2"></div>
+    </div>
+    <div class="row"
+         id="row-2">
+      <div class="column"
+           id="row-2-column-0"></div>
+      <div class="column"
+           id="row-2-column-1"></div>
+      <div class="column"
+           id="row-2-column-2"></div>
+    </div>
+  </div>
+  <div style="width:100%; height:40px"></div>
+  <button id="reset-button">Reset</button>
+  <script src="academy.js"
+        type="text/javascript"></script> 
+  <script src="connectors.js"
+        type="text/javascript"></script>
+</body>
+</html>
